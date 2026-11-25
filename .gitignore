@@ -1,0 +1,14 @@
+# Archivos temporales y del sistema
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Carpetas de dependencias o entornos si llegaran a existir
+vendor/
+node_modules/
+
+# Si deseas mantener uploads/login_bg.* descomenta la siguiente línea:
+# uploads/*
+# !uploads/.gitkeep
