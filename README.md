@@ -60,6 +60,11 @@ Gestiona el inicio de sesión (`login`), el cierre de sesión (`logout`) y el ca
 
 > **Colocar aquí:** *(Correo/usuario de prueba o administrador, captura/referencia de `auth.php`, observaciones de `uploads/login_bg.*`)*
 
+> **Correo:** op2020pk@gmail.com
+> **Clave:** 123456
+
+> **NOTA:** Una vez este dentro del sistema puede cambiar el correo y la clave sin antes olvidar que al formatear el sistema o persida de datos, volvera a entrar con los datos prededeterminado
+
 ---
 
 ## Panel Principal y Menú Dinámico (`index.php` y `config.php`)
