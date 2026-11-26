@@ -15,6 +15,33 @@
 
 ---
 
+## Presentación gráfica de los módulos del sistema
+
+| Módulo: Autenticación (`auth`) | Módulo: Panel Principal (`index`) |
+| :---: | :---: |
+| <img src="Captures/1_auth.png" alt="Autenticación" width="380"> | <img src="Captures/2_index.png" alt="Panel Principal" width="380"> |
+
+| Módulo: Categorías (`categorias`) | Módulo: Productos (`productos`) |
+| :---: | :---: |
+| <img src="Captures/3_categorias.png" alt="Categorías" width="380"> | <img src="Captures/5_productos.png" alt="Productos" width="380"> |
+
+| Módulo: Proveedores (`proveedores`) | Módulo: Existencias (`existencias`) |
+| :---: | :---: |
+| <img src="Captures/6_proveedores.png" alt="Proveedores" width="380"> | <img src="Captures/7_existencias.png" alt="Existencias" width="380"> |
+
+| Módulo: Facturación (`facturacion`) | Módulo: Gestión de Roles (`roles`) |
+| :---: | :---: |
+| <img src="Captures/8_facturacion.png" alt="Facturación" width="380"> | <img src="Captures/9_roles.png" alt="Roles" width="380"> |
+
+| Módulo: Control de Stock (`stock`) | Módulo: Cambiar Contraseña (`password`) |
+| :---: | :---: |
+| <img src="Captures/10_stock.png" alt="Stock" width="380"> | <img src="Captures/11_password.png" alt="Contraseña" width="380"> |
+
+| Módulo: Desarrollador (`desarrollador`) | |
+| :---: | :---: |
+| <img src="Captures/12_desarrollador.png" alt="Desarrollador" width="380"> | |
+
+---
 ## Arquitectura General y Base de Datos
 
 El sistema utiliza una arquitectura **PHP** ligera con conexión centralizada mediante **PDO** en `config.php`, consultas preparadas, escape de salida con `e()`, manejo de mensajes flash en sesión, control de acceso por roles/permisos en base de datos y una estructura de **16 tablas** en `db_inventory` (`DB/inventory.sql`).
